@@ -1,6 +1,6 @@
 {
-    "name": "christophwurst/nextcloud-coding-standard",
-    "description": "Nextcloud coding standards for php cs fixer",
+    "name": "nextcloud/coding-standard",
+    "description": "Nextcloud coding standards for the php cs fixer",
     "type": "library",
     "require": {
         "php": "^7.2",
@@ -15,7 +15,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "ChristophWurst\\Nextcloud\\CodingStandard\\": "src"
+            "Nextcloud\\CodingStandard\\": "src"
         }
     }
 }

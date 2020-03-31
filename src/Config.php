@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace ChristophWurst\Nextcloud\CodingStandard;
+namespace Nextcloud\CodingStandard;
 
 use PhpCsFixer\Config as Base;
 
