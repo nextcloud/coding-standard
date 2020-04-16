@@ -40,7 +40,7 @@ For convenience you may add it to the `scripts` section of your `composer.json`:
 ```json
 {
     "scripts": {
-        "cs:check": "php-cs-fixer fix --dry-run",
+        "cs:check": "php-cs-fixer fix --dry-run --diff",
         "cs:fix": "php-cs-fixer fix"
     }
 }
