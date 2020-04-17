@@ -45,3 +45,5 @@ For convenience you may add it to the `scripts` section of your `composer.json`:
     }
 }
 ```
+
+*Note: Don't forget to exclude .php_cs.dist in your build scripts.*
