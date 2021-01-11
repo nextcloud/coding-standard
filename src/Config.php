@@ -43,6 +43,9 @@ class Config extends Base
 			],
 			'indentation_type' => true,
 			'line_ending' => true,
+			'list_syntax' => [
+				'syntax' => 'short',
+			],
 			'lowercase_keywords' => true,
 			'method_argument_space' => [],
 			'no_closing_tag' => true,
