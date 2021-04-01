@@ -33,7 +33,7 @@ $config
 return $config;
 ```
 
-To run the fixer you first have to [install it](https://github.com/FriendsOfPhp/PHP-CS-Fixer#installation). Then you can run `php-cs fix` to apply all automated fixes.
+To run the fixer you first have to [install it](https://github.com/FriendsOfPhp/PHP-CS-Fixer#installation). Then you can run `php-cs-fixer fix` to apply all automated fixes.
 
 For convenience you may add it to the `scripts` section of your `composer.json`:
 
