@@ -6,17 +6,13 @@ namespace Nextcloud\CodingStandard;
 
 use PhpCsFixer\Config as Base;
 
-class Config extends Base
-{
-
-	public function __construct($name = 'default')
-	{
+class Config extends Base {
+	public function __construct($name = 'default') {
 		parent::__construct($name);
 		$this->setIndent("\t");
 	}
 
-	public function getRules()
-	{
+	public function getRules() {
 		return [
 			'@PSR1' => true,
 			'@PSR2' => true,
@@ -64,5 +60,4 @@ class Config extends Base
 			],
 		];
 	}
-
 }
