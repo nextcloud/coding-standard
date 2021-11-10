@@ -10,7 +10,7 @@ Add the package to your dev dependencies
 composer require --dev nextcloud/coding-standard
 ```
 
-and create a `.php_cs.dist` like
+and create a `.php-cs-fixer.dist.php` like
 
 ```php
 <?php
@@ -47,3 +47,10 @@ For convenience you may add it to the `scripts` section of your `composer.json`:
 ```
 
 *Note: Don't forget to exclude .php_cs.dist in your build scripts.*
+
+## Upgrade from v0.x to v1.0
+
+With v1.0 php-cs-fixer was updated from v2 to v3. You'll have to adjust your app slightly:
+
+* Rename `.php_cs.dist` to `.php-cs-fixer.dist.php`
+* Add `.php-cs-fixer.cache` to your ignore files
