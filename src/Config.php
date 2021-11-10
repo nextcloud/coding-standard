@@ -12,15 +12,12 @@ class Config extends Base {
 		$this->setIndent("\t");
 	}
 
-	public function getRules() {
+	public function getRules() : array {
 		return [
 			'@PSR1' => true,
 			'@PSR2' => true,
 			'align_multiline_comment' => true,
 			'array_indentation' => true,
-			'array_syntax' => [
-				'syntax' => 'short',
-			],
 			'binary_operator_spaces' => [
 				'default' => 'single_space',
 			],
@@ -39,11 +36,10 @@ class Config extends Base {
 			],
 			'indentation_type' => true,
 			'line_ending' => true,
-			'list_syntax' => [
-				'syntax' => 'short',
-			],
 			'lowercase_keywords' => true,
-			'method_argument_space' => [],
+			'method_argument_space' => [
+				'on_multiline' => 'ignore',
+			],
 			'no_closing_tag' => true,
 			'no_spaces_after_function_name' => true,
 			'no_spaces_inside_parenthesis' => true,
