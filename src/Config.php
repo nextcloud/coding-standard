@@ -46,6 +46,7 @@ class Config extends Base {
 			'no_trailing_whitespace' => true,
 			'no_trailing_whitespace_in_comment' => true,
 			'no_unused_imports' => true,
+			'ordered_imports' => true,
 			'single_blank_line_at_eof' => true,
 			'single_class_element_per_statement' => true,
 			'single_import_per_statement' => true,
