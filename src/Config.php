@@ -23,10 +23,9 @@ class Config extends Base {
 			],
 			'blank_line_after_namespace' => true,
 			'blank_line_after_opening_tag' => true,
-			'braces' => [
-				'position_after_anonymous_constructs' => 'same',
-				'position_after_control_structures' => 'same',
-				'position_after_functions_and_oop_constructs' => 'same',
+			'curly_braces_position' => [
+				'classes_opening_brace' => 'same_line',
+				'functions_opening_brace' => 'same_line',
 			],
 			'elseif' => true,
 			'encoding' => true,
