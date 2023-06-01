@@ -4,7 +4,7 @@
     "type": "library",
     "require": {
         "php": "^7.3|^8.0",
-        "friendsofphp/php-cs-fixer": "^3.9"
+        "php-cs-fixer/shim": "^3.17"
     },
     "license": "MIT",
     "authors": [
