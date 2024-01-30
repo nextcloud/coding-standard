@@ -18,6 +18,7 @@ class Config extends Base {
 			'@PSR2' => true,
 			'align_multiline_comment' => true,
 			'array_indentation' => true,
+			'array_syntax' => true,
 			'binary_operator_spaces' => [
 				'default' => 'single_space',
 			],
