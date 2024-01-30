@@ -37,6 +37,7 @@ class Config extends Base {
 			],
 			'indentation_type' => true,
 			'line_ending' => true,
+			'list_syntax' => true,
 			'lowercase_keywords' => true,
 			'method_argument_space' => [
 				'on_multiline' => 'ignore',
