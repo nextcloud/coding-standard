@@ -46,6 +46,7 @@ class Config extends Base {
 			'no_trailing_whitespace' => true,
 			'no_trailing_whitespace_in_comment' => true,
 			'no_unused_imports' => true,
+			'nullable_type_declaration_for_default_null_value' => true,
 			'ordered_imports' => [
 				'imports_order' => ['class', 'function', 'const'],
 				'sort_algorithm' => 'alpha'
