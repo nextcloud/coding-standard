@@ -58,6 +58,7 @@ class Config extends Base {
 			'visibility_required' => [
 				'elements' => ['property', 'method', 'const']
 			],
+			'yoda_style' => ['equal' => false, 'identical' => false, 'less_and_greater' => false],
 		];
 	}
 }
