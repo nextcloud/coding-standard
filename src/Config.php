@@ -42,6 +42,7 @@ class Config extends Base {
 				'on_multiline' => 'ignore',
 			],
 			'no_closing_tag' => true,
+			'no_leading_import_slash' => true,
 			'no_spaces_after_function_name' => true,
 			'no_spaces_inside_parenthesis' => true,
 			'no_trailing_whitespace' => true,
