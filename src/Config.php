@@ -18,6 +18,7 @@ class Config extends Base {
 			'@PSR2' => true,
 			'align_multiline_comment' => true,
 			'array_indentation' => true,
+			'array_syntax' => true,
 			'binary_operator_spaces' => [
 				'default' => 'single_space',
 			],
@@ -30,21 +31,25 @@ class Config extends Base {
 			'elseif' => true,
 			'encoding' => true,
 			'full_opening_tag' => true,
+			'fully_qualified_strict_types' => ['leading_backslash_in_global_namespace' => true],
 			'function_declaration' => [
 				'closure_function_spacing' => 'one',
 			],
 			'indentation_type' => true,
 			'line_ending' => true,
+			'list_syntax' => true,
 			'lowercase_keywords' => true,
 			'method_argument_space' => [
 				'on_multiline' => 'ignore',
 			],
 			'no_closing_tag' => true,
+			'no_leading_import_slash' => true,
 			'no_spaces_after_function_name' => true,
 			'no_spaces_inside_parenthesis' => true,
 			'no_trailing_whitespace' => true,
 			'no_trailing_whitespace_in_comment' => true,
 			'no_unused_imports' => true,
+			'nullable_type_declaration_for_default_null_value' => true,
 			'ordered_imports' => [
 				'imports_order' => ['class', 'function', 'const'],
 				'sort_algorithm' => 'alpha'
@@ -57,6 +62,7 @@ class Config extends Base {
 			'visibility_required' => [
 				'elements' => ['property', 'method', 'const']
 			],
+			'yoda_style' => ['equal' => false, 'identical' => false, 'less_and_greater' => false],
 		];
 	}
 }
