@@ -58,6 +58,7 @@ class Config extends Base {
 			'single_import_per_statement' => true,
 			'single_line_after_imports' => true,
 			'switch_case_space' => true,
+			'types_spaces' => ['space' => 'none', 'space_multiple_catch' => 'none'],
 			'visibility_required' => [
 				'elements' => ['property', 'method', 'const']
 			],
