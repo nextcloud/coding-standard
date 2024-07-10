@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 1.2.2 - 2024-07-10
+### Added
+* `types_spaces`: No spaces around union and intersection type operators
+
 ## 1.2.1 - 2024-02-01
 ### Fix
 * fix: Remove `fully_qualified_strict_types` again by @nickvergessen in https://github.com/nextcloud/coding-standard/pull/16
