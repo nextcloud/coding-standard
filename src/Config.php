@@ -41,6 +41,7 @@ class Config extends Base {
 			'method_argument_space' => [
 				'on_multiline' => 'ignore',
 			],
+			'method_chaining_indentation' => true,
 			'no_closing_tag' => true,
 			'no_leading_import_slash' => true,
 			'no_spaces_after_function_name' => true,
