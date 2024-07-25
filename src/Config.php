@@ -53,6 +53,7 @@ class Config extends Base {
 				'imports_order' => ['class', 'function', 'const'],
 				'sort_algorithm' => 'alpha'
 			],
+			'phpdoc_var_annotation_correct_order' => true,
 			'single_blank_line_at_eof' => true,
 			'single_class_element_per_statement' => true,
 			'single_import_per_statement' => true,
