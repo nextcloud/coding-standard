@@ -1,6 +1,19 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 1.2.2 - 2024-08-23
+### Added
+* `cast_spaces`: A single space between cast and variable
+* `lowercase_cast`: Cast should be written in lower case
+* `method_chaining_indentation`: Use the same indentation when changing methods
+* `no_short_bool_cast`: Short cast bool using double exclamation mark should not be used
+* `phpdoc_align`: All items of the given PHPDoc tags must be left-aligned
+* `phpdoc_single_line_var_spacing`: Single line @var PHPDoc should have proper spacing
+* `phpdoc_var_annotation_correct_order`: Enforce the correct order for phpdoc annotations
+* `short_scalar_cast`: (boolean) => (bool), (integer) => (int), ...
+* `single_quote`: Use single quotes for simple strings
+* `types_spaces`: No spaces around union and intersection type operators
+
 ## 1.2.1 - 2024-02-01
 ### Fix
 * fix: Remove `fully_qualified_strict_types` again by @nickvergessen in https://github.com/nextcloud/coding-standard/pull/16
