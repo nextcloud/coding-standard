@@ -57,6 +57,8 @@ class Config extends Base {
 				'imports_order' => ['class', 'function', 'const'],
 				'sort_algorithm' => 'alpha'
 			],
+			'phpdoc_align' => ['align' => 'left'],
+			'phpdoc_single_line_var_spacing' => true,
 			'phpdoc_var_annotation_correct_order' => true,
 			'short_scalar_cast' => true,
 			'single_blank_line_at_eof' => true,
