@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 1.2.3 - 2024-08-23
+### Changed
+* `cast_spaces`: No space between cast and variable
+
 ## 1.2.2 - 2024-08-23
 ### Added
 * `cast_spaces`: A single space between cast and variable

@@ -24,7 +24,7 @@ class Config extends Base {
 			],
 			'blank_line_after_namespace' => true,
 			'blank_line_after_opening_tag' => true,
-			'cast_spaces' => ['space' => 'single'],
+			'cast_spaces' => ['space' => 'none'],
 			'curly_braces_position' => [
 				'classes_opening_brace' => 'same_line',
 				'functions_opening_brace' => 'same_line',
