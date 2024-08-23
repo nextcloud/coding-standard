@@ -24,6 +24,7 @@ class Config extends Base {
 			],
 			'blank_line_after_namespace' => true,
 			'blank_line_after_opening_tag' => true,
+			'cast_spaces' => ['space' => 'single'],
 			'curly_braces_position' => [
 				'classes_opening_brace' => 'same_line',
 				'functions_opening_brace' => 'same_line',
@@ -37,6 +38,7 @@ class Config extends Base {
 			'indentation_type' => true,
 			'line_ending' => true,
 			'list_syntax' => true,
+			'lowercase_cast' => true,
 			'lowercase_keywords' => true,
 			'method_argument_space' => [
 				'on_multiline' => 'ignore',
@@ -44,6 +46,7 @@ class Config extends Base {
 			'method_chaining_indentation' => true,
 			'no_closing_tag' => true,
 			'no_leading_import_slash' => true,
+			'no_short_bool_cast' => true,
 			'no_spaces_after_function_name' => true,
 			'no_spaces_inside_parenthesis' => true,
 			'no_trailing_whitespace' => true,
@@ -55,6 +58,7 @@ class Config extends Base {
 				'sort_algorithm' => 'alpha'
 			],
 			'phpdoc_var_annotation_correct_order' => true,
+			'short_scalar_cast' => true,
 			'single_blank_line_at_eof' => true,
 			'single_class_element_per_statement' => true,
 			'single_import_per_statement' => true,
