@@ -4,12 +4,23 @@ declare(strict_types=1);
 
 namespace Nextcloud\CodingStandard;
 
+use Nextcloud\CodingStandard\Fixer\NoThreeDotsInStringFixer;
 use PhpCsFixer\Config as Base;
 
 class Config extends Base {
-	public function __construct($name = 'default') {
+
+	/**
+	 * @inheritdoc
+	 * @param bool $enableStringRules Enable rules to improve string quality
+	 */
+	public function __construct($name = 'default',
+		protected bool $enableStringRules = false,
+	) {
 		parent::__construct($name);
 		$this->setIndent("\t");
+		$this->registerCustomFixers([
+			new NoThreeDotsInStringFixer(),
+		]);
 	}
 
 	public function getRules() : array {
@@ -72,6 +83,7 @@ class Config extends Base {
 				'elements' => ['property', 'method', 'const']
 			],
 			'yoda_style' => ['equal' => false, 'identical' => false, 'less_and_greater' => false],
+			'Nextcloud/no_three_dots_in_string' => $this->enableStringRules,
 		];
 	}
 }
