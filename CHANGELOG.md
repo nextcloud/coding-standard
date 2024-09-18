@@ -8,6 +8,8 @@ All notable changes to this project will be documented in this file.
 * `MultilinePromotedPropertiesFixer`: Break promoted properties on multiple lines
 * `ErickSkrauch/blank_line_before_return`: Add a blank line before each return
 * `ErickSkrauch/line_break_after_statements`: Add a blank line after all control statements
+* `concat_space`: Concatenation should be spaced
+* `nullable_type_declaration`: Changes `DateTimeInterface|null` to `?DateTimeInterface`
 
 ## 1.2.3 - 2024-08-23
 ### Changed
