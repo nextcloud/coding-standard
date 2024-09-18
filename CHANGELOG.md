@@ -1,11 +1,13 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
-## 1.2.4 - TBA
+## 1.3.0 - TBA
 
 ### Changed
 * `trailing_comma_in_multiline`: Add a trailing comma to multline function parameters
 * `MultilinePromotedPropertiesFixer`: Break promoted properties on multiple lines
+* `ErickSkrauch/blank_line_before_return`: Add a blank line before each return
+* `ErickSkrauch/line_break_after_statements`: Add a blank line after all control statements
 
 ## 1.2.3 - 2024-08-23
 ### Changed
