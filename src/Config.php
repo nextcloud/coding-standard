@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Nextcloud\CodingStandard;
 
 use PhpCsFixer\Config as Base;
+use PhpCsFixerCustomFixers;
 
 class Config extends Base {
 	public function __construct($name = 'default') {
@@ -68,6 +69,7 @@ class Config extends Base {
 			'single_line_after_imports' => true,
 			'single_quote' => ['strings_containing_single_quote_chars' => false],
 			'switch_case_space' => true,
+			'trailing_comma_in_multiline' => ['elements' => ['parameters']],
 			'types_spaces' => ['space' => 'none', 'space_multiple_catch' => 'none'],
 			'visibility_required' => [
 				'elements' => ['property', 'method', 'const']
