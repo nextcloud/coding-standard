@@ -28,6 +28,7 @@ class Config extends Base {
 			'blank_line_after_namespace' => true,
 			'blank_line_after_opening_tag' => true,
 			'cast_spaces' => ['space' => 'none'],
+			'concat_space' => ['spacing' => 'one'],
 			'curly_braces_position' => [
 				'classes_opening_brace' => 'same_line',
 				'functions_opening_brace' => 'same_line',
@@ -56,6 +57,7 @@ class Config extends Base {
 			'no_trailing_whitespace_in_comment' => true,
 			'no_unused_imports' => true,
 			'nullable_type_declaration_for_default_null_value' => true,
+			'nullable_type_declaration' => ['syntax' => 'question_mark'],
 			'ordered_imports' => [
 				'imports_order' => ['class', 'function', 'const'],
 				'sort_algorithm' => 'alpha'
