@@ -1,6 +1,12 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 1.2.4 - TBA
+
+### Changed
+* `trailing_comma_in_multiline`: Add a trailing comma to multline function parameters
+* `MultilinePromotedPropertiesFixer`: Break promoted properties on multiple lines
+
 ## 1.2.3 - 2024-08-23
 ### Changed
 * `cast_spaces`: No space between cast and variable
