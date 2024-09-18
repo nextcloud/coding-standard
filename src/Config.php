@@ -10,6 +10,7 @@ class Config extends Base {
 	public function __construct($name = 'default') {
 		parent::__construct($name);
 		$this->setIndent("\t");
+		$this->registerCustomFixers(new PhpCsFixerCustomFixers\Fixers());
 	}
 
 	public function getRules() : array {
@@ -72,6 +73,7 @@ class Config extends Base {
 				'elements' => ['property', 'method', 'const']
 			],
 			'yoda_style' => ['equal' => false, 'identical' => false, 'less_and_greater' => false],
+			PhpCsFixerCustomFixers\Fixer\MultilinePromotedPropertiesFixer::name() => true,
 		];
 	}
 }
