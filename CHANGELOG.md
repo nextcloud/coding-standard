@@ -1,7 +1,7 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
-## 1.3.1 - TBA
+## 1.3.1 - 2024-09-19
 ### Fixed
 * Removed misbehaving `ErickSkrauch/blank_line_before_return` and `ErickSkrauch/line_break_after_statements` rules
 
