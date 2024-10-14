@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 1.3.2 - 2024-10-14
+### Added
+* `type_declaration_spaces`: A single space between typehint and variable name
+
 ## 1.3.1 - 2024-09-19
 ### Fixed
 * Removed misbehaving `ErickSkrauch/blank_line_before_return` and `ErickSkrauch/line_break_after_statements` rules

@@ -73,6 +73,7 @@ class Config extends Base {
 			'switch_case_space' => true,
 			'trailing_comma_in_multiline' => ['elements' => ['parameters']],
 			'types_spaces' => ['space' => 'none', 'space_multiple_catch' => 'none'],
+			'type_declaration_spaces' => ['elements' => ['function', 'property']],
 			'visibility_required' => [
 				'elements' => ['property', 'method', 'const']
 			],
