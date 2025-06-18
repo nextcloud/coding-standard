@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 1.3.3 — unreleased
+### Added
+* `no_whitespace_in_blank_line`: Remove trailing whitespace at the end of blank lines
+
 ## 1.3.2 - 2024-10-14
 ### Added
 * `type_declaration_spaces`: A single space between typehint and variable name

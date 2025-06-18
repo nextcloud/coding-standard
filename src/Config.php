@@ -55,6 +55,7 @@ class Config extends Base {
 			'no_trailing_whitespace' => true,
 			'no_trailing_whitespace_in_comment' => true,
 			'no_unused_imports' => true,
+			'no_whitespace_in_blank_line' => true,
 			'nullable_type_declaration_for_default_null_value' => true,
 			'nullable_type_declaration' => ['syntax' => 'question_mark'],
 			'operator_linebreak' => [
