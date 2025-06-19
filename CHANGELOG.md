@@ -1,9 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
-## 1.3.3 — unreleased
+## 1.4.0 — 2025-07-19
 ### Added
 * `no_whitespace_in_blank_line`: Remove trailing whitespace at the end of blank lines
+* `operator_linebreak`: Split conditional statements into multiple lines and place operator at the beginning
 
 ## 1.3.2 - 2024-10-14
 ### Added
