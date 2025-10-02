@@ -1,6 +1,21 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 1.5.0 - UNRELEASED
+### Notes
+The `logical_operators` rule is considered risky as operators `and` and `&&`
+have different precedence and in rare cases the logic of existing code could change.
+So to run this new version of the configuration, you need to adjust your composer scripts like this:
+
+```diff
+-	"cs:check": "php-cs-fixer fix --dry-run --diff",
++	"cs:check": "php-cs-fixer fix --dry-run --allow-risky yes --diff",
+    "cs:fix": "php-cs-fixer fix",
+```
+
+### Added
+- `logical_operators`: Disallow `and` and `or` operator in favor of `&&` and `||`.
+
 ## 1.4.0 — 2025-07-19
 ### Added
 * `no_whitespace_in_blank_line`: Remove trailing whitespace at the end of blank lines
