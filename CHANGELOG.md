@@ -3,15 +3,10 @@ All notable changes to this project will be documented in this file.
 
 ## 1.5.0 - UNRELEASED
 ### Notes
-The `logical_operators` rule is considered risky as operators `and` and `&&`
-have different precedence and in rare cases the logic of existing code could change.
-So to run this new version of the configuration, you need to adjust your composer scripts like this:
-
-```diff
--	"cs:check": "php-cs-fixer fix --dry-run --diff",
-+	"cs:check": "php-cs-fixer fix --dry-run --allow-risky yes --diff",
-    "cs:fix": "php-cs-fixer fix",
-```
+- Risky mode is enabled by default
+  The `logical_operators` rule is considered risky as operators `and` and `&&`
+  have different precedence and in rare cases the logic of existing code could change.
+  In order to run those correctly by default, the risky flag is default enabled for our config.
 
 ### Added
 - `logical_operators`: Disallow `and` and `or` operator in favor of `&&` and `||`.
