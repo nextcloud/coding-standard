@@ -8,14 +8,15 @@ use PhpCsFixer\Config as Base;
 use PhpCsFixerCustomFixers;
 
 class Config extends Base {
-	public function __construct($name = 'default') {
+	public function __construct($name = 'default', bool $allowRisky = true) {
 		parent::__construct($name);
 		$this->setIndent("\t");
 		$this->registerCustomFixers(new PhpCsFixerCustomFixers\Fixers());
+		$this->setRiskyAllowed($allowRisky);
 	}
 
 	public function getRules() : array {
-		return [
+		$rules = [
 			'@PSR1' => true,
 			'@PSR2' => true,
 			'align_multiline_comment' => true,
@@ -41,7 +42,6 @@ class Config extends Base {
 			'indentation_type' => true,
 			'line_ending' => true,
 			'list_syntax' => true,
-			'logical_operators' => true,
 			'lowercase_cast' => true,
 			'lowercase_keywords' => true,
 			'method_argument_space' => [
@@ -85,5 +85,11 @@ class Config extends Base {
 			'yoda_style' => ['equal' => false, 'identical' => false, 'less_and_greater' => false],
 			PhpCsFixerCustomFixers\Fixer\MultilinePromotedPropertiesFixer::name() => true,
 		];
+
+		if ($this->getRiskyAllowed()) {
+			$rules['logical_operators'] = true;
+		}
+
+		return $rules;
 	}
 }
