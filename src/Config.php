@@ -47,6 +47,9 @@ class Config extends Base {
 				'on_multiline' => 'ignore',
 			],
 			'method_chaining_indentation' => true,
+			'modifier_keywords' => [
+				'elements' => ['property', 'method', 'const']
+			],
 			'no_closing_tag' => true,
 			'no_leading_import_slash' => true,
 			'no_short_bool_cast' => true,
@@ -78,9 +81,6 @@ class Config extends Base {
 			'trailing_comma_in_multiline' => ['elements' => ['parameters']],
 			'types_spaces' => ['space' => 'none', 'space_multiple_catch' => 'none'],
 			'type_declaration_spaces' => ['elements' => ['function', 'property']],
-			'visibility_required' => [
-				'elements' => ['property', 'method', 'const']
-			],
 			'yoda_style' => ['equal' => false, 'identical' => false, 'less_and_greater' => false],
 			PhpCsFixerCustomFixers\Fixer\MultilinePromotedPropertiesFixer::name() => true,
 		];
