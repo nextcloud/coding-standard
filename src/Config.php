@@ -26,6 +26,7 @@ class Config extends Base {
 			],
 			'blank_line_after_namespace' => true,
 			'blank_line_after_opening_tag' => true,
+			'blank_lines_before_namespace' => ['min_line_breaks' => 2, 'max_line_breaks' => 2],
 			'cast_spaces' => ['space' => 'none'],
 			'concat_space' => ['spacing' => 'one'],
 			'curly_braces_position' => [
@@ -51,6 +52,11 @@ class Config extends Base {
 				'elements' => ['property', 'method', 'const']
 			],
 			'no_closing_tag' => true,
+			'no_extra_blank_lines' => [
+				'tokens' => [
+					'attribute', 'extra', 'parenthesis_brace_block', 'return', 'square_brace_block', 'switch', 'throw', 'use', 'use_trait'
+				]
+			],
 			'no_leading_import_slash' => true,
 			'no_short_bool_cast' => true,
 			'no_spaces_after_function_name' => true,
