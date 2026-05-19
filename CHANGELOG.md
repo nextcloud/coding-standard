@@ -1,6 +1,11 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 1.5.0 — 2026-05-19
+### Added
+* `blank_lines_before_namespace`: Make sure a blank line precedes the namespace declaration
+* `no_extra_blank_lines`: Remove extra blank lines where they are not needed to improve readability
+
 ## 1.4.0 — 2025-07-19
 ### Added
 * `no_whitespace_in_blank_line`: Remove trailing whitespace at the end of blank lines
